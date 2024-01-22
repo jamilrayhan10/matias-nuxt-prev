@@ -1,0 +1,108 @@
+/*
+Author       : theme_ocean
+Template Name: Matias - Personal Portfolio Template
+Version      : 1.0
+*/
+
+
+body{
+font-family: 'Kanit', sans-serif;
+color: #444;
+background:#fff;
+}
+a {
+	color: #444;
+	outline: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+	outline: none;
+	text-decoration: none;
+	color: #000;
+}
+
+/*START PRELOADER DESIGN*/
+.preloader__matias {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.941);
+}
+.preloader__matias .matias {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border: 5px solid #aad302;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 10px 5px 0;
+  animation: upd 2s linear infinite;
+  margin: 0 auto 5px;
+}
+.preloader__matias .matias img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-bottom: -10px;
+}
+.preloader__matias .mati {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #aad302;
+  color: transparent;
+  letter-spacing: 8px;
+}
+.fz-30 {
+  font-size: 30px;
+}
+@keyframes upd {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+/*END PRELOADER DESIGN*/
+
+.demo {}
+.top_header {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.top_header h1 {
+	font-weight: 700;
+	color:#000;
+	font-size: 60px;
+}
+.top_header h4{
+color:#000;
+}
+
+.demo_img{
+margin-bottom:40px;
+}
+.demo_img img {width:400px;}
+.demo_img h3 {
+	font-size: 20px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	transition: all 0.4s ease 0s;
+	margin-top: 30px;
+	font-weight: 600;
+	color:#000;
+	/* padding-bottom: 20px; */
+}
+.demo_img:hover h3{color: #aad302 ;}
+
+
+
+
+
